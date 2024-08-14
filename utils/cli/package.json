@@ -1,0 +1,22 @@
+{
+  "name": "@lerna-cli/utils",
+  "version": "0.0.0",
+  "description": "这是工具包",
+  "author": "yechunyan <13897963476@163.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/cli.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "scripts": {
+    "test": "node ./__tests__/cli.test.js"
+  }
+}
